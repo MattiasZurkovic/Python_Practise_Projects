@@ -33,7 +33,7 @@ def roll():
 
 def re_roll():
   # User response
-  res = input('Roll again? (Y/N): ')
+  res = input('Roll again? (y/n): ')
   if res == 'Y':
     roll()
 
